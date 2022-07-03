@@ -1,0 +1,35 @@
+<mat-card>
+  <h4>Profile Information</h4>
+  <div class="pt-3">
+    <div class="proflie-field mb-3">
+      <label>First Name:</label>
+      <span>Ahmad</span>
+    </div>
+    <div class="proflie-field mb-3">
+      <label>Last Name:</label>
+      <span>Almunajjed</span>
+    </div>
+    <div class="proflie-field mb-3">
+      <label>Gender:</label>
+      <span>Male</span>
+    </div>
+    <div class="proflie-field mb-3">
+      <label>Date of birth:</label>
+      <span>Jan,06,1997</span>
+    </div>
+    <div class="proflie-field mb-3">
+      <label>Mobile Number:</label>
+      <span>+60 170000000</span>
+    </div>
+    <div class="proflie-field mb-3">
+      <label>location:</label>
+      <span>Skudai</span>
+    </div>
+    <div class="proflie-field mb-3">
+      <label>E-mail id:</label>
+      <span>almunajjed@graduate.utm.my</span>
+    </div>
+
+    <button mat-raised-button color="accent" [routerLink]="['edit']" [queryParams]="{type:'info'}">Edit</button>
+  </div>
+</mat-card>
